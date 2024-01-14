@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+a {
+    display: inherit;
+    color: inherit;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(19, 145, 206, 0.70);
+    padding-top: 41px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.white {
+    color: white;
+}
+
+.head_right__button {
+    width: 116px;
+    height: 37px;
+    border: none;
+    background-color: white;
+    border-radius: 24px;
+}
+
+.hero_left h2 {
+    color: #25468A;
+    font-size: 92px;
+    font-weight: 700;
+}
+
+.hero {
+    height: 643px;
+    padding-top: 98px;
+    background-color: rgba(19, 145, 206, 0.70);
+}
+
+.hero_left h3 {
+    color: #3B4A6B;
+    font-size: 32px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.hero_left p {
+    color: #3B4A6B;
+    font-size: 20px;
+    margin-bottom: 24px;
+
+}
+
+.hero__left_button {
+    width: 265.529px;
+    padding: 15px 65px;
+    border-radius: 26px;
+    border: none;
+    background-color: #F7BA0E;
+}
+
+.cards_section {
+    background-color: #E9F5FF;
+}
+
+.card {
+    width: 352px;
+    height: 189px;
+    border-radius: 8px;
+    background: #1391CE;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 69px 0;
+    margin-top: 176px;
+    margin-bottom: 63px;
+}
+
+.handbroke {
+    background-color: #E9F5FF;
+}
+
+.handbroke_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.handbroke h2 {
+    color: #1391CE;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 121.3%;
+    letter-spacing: 0.36px;
+}
+
+.rectangle {
+    width: 160px;
+    height: 8px;
+    margin-top: 15px;
+    background-color: #F7BA0E;
+}
+
+.devise_presets_section {
+    background-color: #E9F5FF;
+    padding-top: 96px;
+    padding-bottom: 128px;
+}
+
+.devise_right h3 {
+    color: #25468A;
+    font-size: 16px;
+}
+
+.devise_right h2 {
+    color: #1391CE;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.devise_right p {
+    color: #4F4F4F;
+}
+
+.support_section {
+    background-color: #E9F5FF;
+}
+
+.support_left h3 {
+    color: #25468A;
+}
+
+.support_left h2 {
+    color: #1391CE;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.p2 {
+    color: #4F4F4F;
+    margin-bottom: 24px;
+}
+
+.p1 {
+    color: #1391CE;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.support_list {
+    color: #4F4F4F;
+}
+
+.features_section {
+    padding-top: 128px;
+    background-color: #E9F5FF;
+}
+
+.features-right h3 {
+    color: #25468A;
+}
+
+.features-right h2 {
+    color: #1391CE;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.features-left {
+    padding-bottom: 93px;
+}
+
+footer {
+    background-color: #1391CE;
+    padding: 32px;
+}
+
+.footer_left p,
+.footer_right p {
+    display: flex;
+    padding-bottom: 69px;
+}
